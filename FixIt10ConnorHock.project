@@ -18,8 +18,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "customerUpdate", 
-            "customerUpdate.json"
+            "customerSelect", 
+            "customerSelect.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "customerDelete", 
+            "customerDelete.json"
           ]
         }, 
         {
@@ -34,16 +42,8 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "customerSelect", 
-            "customerSelect.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "customerDelete", 
-            "customerDelete.json"
+            "customerUpdate", 
+            "customerUpdate.json"
           ]
         }
       ], 
@@ -59,7 +59,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "customerSelect", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
